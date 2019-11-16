@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>ログイン結果画面2</title>
+    </head>
+    <body>
+        <h1>詳細画面</h1>
+        <p>名前：<span th:text="${user.getName()}">高橋</span></p>
+        <a href="/logout" th:href="@{logout}">ログアウト</a>
+</body>
+</html>
